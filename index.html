@@ -1,43 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio bonito</title>
     <meta name="description" content="Este es mi portafolio bonito">
-    <meta name="author" content="Maikol Jimenez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="author" content="Leo">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1db2702c51.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./contact.html">Contacto</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./projects.html">Proyectos</a></li>
-                <li><a href="./about.html">Sobre mi</a></li>
+    <header class="header">
+        <figure>
+            <img class="header--img" src="https://leocode0.dev/src/icons/logo.png" alt="Logo de Leo">
+        </figure>
+        <a href="./">Home</a>
+        <nav class="header--nav">
+            <ul class="header--list">
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="./projects.html">Proyectos</a>
+                </li>
+                <li>
+                    <a href="./about.html">Sobre mi</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <picture>
-            <img src="./Assets/img/20170910_225107.jpg" alt="mi foto de perfil">
-        </picture>
-        <h2>Maikol Jimenez portafolio</h2>
-        <p>Esta va a ser mi descripcion</p>
+    <main class="main">
+        <div class="main--container">
+            <div class="img-container">
+                1<img class="main--img" src="https://picsum.photos/200" alt="Mi foto de perfil">
+            </div>
+            <div class="main--info">
+                <h2 class="info--name">LeoCode0 Frontend developer</h2>
+                <p class="info--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur maxime a
+                    dignissimos debitis natus, porro pariatur distinctio ipsa amet, praesentium enim aliquid nostrum fugiat, id
+                    facere vel. Maiores, corporis ullam!</p>
+            <div class="main--links">
+                <a class="main--link main--link__salmon" href="./contact.html">Contacto</a>
+                <a class="main--link main--link__transparent" href="./about.html">Acerce de</a>
+            </div>
+            <div class="main--social-media">
+                <h2>Sigueme en </h2>
+                <ul>
+                    <li>
+                        <a href="">Twitter</a>
+                        <a href="">Linkedin</a>
+                        <a href="">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
         <ul>
-            <li>React</li>
-            <li>Html</li>
-            <li>Css</li>
-            <li>JavaScript</li>
+            <li>
+                <img src="" alt="React">
+                <p>React</p>
+            </li>
+            <li>
+                <img src="" alt="html">
+                <p>Html</p>
+            </li>
+            <li>
+                <img src="" alt="css">
+                <p>css</p>
+            </li>
+            <li>
+                <img src="" alt="javascript">
+                <p>JavaScript</p>
+            </li>
         </ul>
-    </main>
+
     <footer>
-        <h3>Todos los derechos reservados</h3>
+        Todos los derehcos reservados 1999
     </footer>
+    </main>
 </body>
+
 </html>
